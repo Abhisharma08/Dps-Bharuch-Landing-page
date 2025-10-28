@@ -1,0 +1,106 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A modern school campus with happy students",
+      "imageUrl": "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1760612761/1683261043689_Summer053_f1shzt.jpg",
+      "imageHint": "school campus"
+    },
+    {
+      "id": "cbse-logo",
+      "description": "CBSE Logo",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761675150/cbse-logo_npu68q.png",
+      "imageHint": "logo"
+    },
+    {
+      "id": "dps-society-logo",
+      "description": "Delhi Public School Society Logo",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761675354/Delhi-Public-School-Logo_sjmnhv.png",
+      "imageHint": "logo"
+    },
+    {
+      "id": "best-school-award-logo",
+      "description": "Best School Award 2024 Logo",
+      "imageUrl": "https://picsum.photos/seed/award/150/50",
+      "imageHint": "award logo"
+    },
+    {
+      "id": "dps-anand-logo",
+      "description": "DPS Anand School Logo",
+      "imageUrl": "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1760612807/logo-new_gmyxsk.png",
+      "imageHint": "school logo"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Students in a classroom",
+      "imageUrl": "https://picsum.photos/seed/gallery1/600/400",
+      "imageHint": "students classroom"
+    },
+    {
+      "id": "gallery-2",
+      "description": "School library",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761676753/Library_3_oicmfu.jpg",
+      "imageHint": "school library"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Students playing sports",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761676600/Basketball_1_hgpkus.jpg",
+      "imageHint": "students sports"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Science lab",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761675998/Science_Lab_mhy8rz.jpg",
+      "imageHint": "science lab"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Art class",
+      "imageUrl": "https://picsum.photos/seed/gallery5/600/400",
+      "imageHint": "art class"
+    },
+    {
+      "id": "gallery-6",
+      "description": "School building",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761675780/School_building_2_rlpxet.jpg",
+      "imageHint": "school building"
+    },
+    {
+      "id": "gallery-7",
+      "description": "Computer lab",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761677236/Computer_Lab_1_bk9dkp.jpg",
+      "imageHint": "computer lab"
+    },
+    {
+      "id": "gallery-8",
+      "description": "Music room",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761675922/Music_room_jeqvel.jpg",
+      "imageHint": "music room"
+    },
+    {
+      "id": "gallery-9",
+      "description": "School assembly",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761677147/Assembly_2_xv5sx0.jpg",
+      "imageHint": "school assembly"
+    },
+    {
+      "id": "gallery-10",
+      "description": "Playground",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761677158/PlayArea_etbtun.jpg",
+      "imageHint": "playground"
+    },
+    {
+      "id": "gallery-11",
+      "description": "Cafeteria",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761676722/Cafeteria_yncuno.jpg",
+      "imageHint": "school cafeteria"
+    },
+    {
+      "id": "gallery-12",
+      "description": "Annual function",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761677846/Annual_Function_3_a83nxa.jpg",
+      "imageHint": "annual function"
+    }
+  ]
+}
