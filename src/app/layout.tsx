@@ -4,8 +4,8 @@ import { Toaster } from "@/components/ui/toaster"
 import GtmScript from './GtmScript';
 
 export const metadata: Metadata = {
-  title: 'DPS Anand Admissions',
-  description: 'Shape Your Child\'s Future at DPS Anand. Admissions for 2026-27 are now open.',
+  title: 'DPS Bharuch Admissions',
+  description: 'Shape Your Child\'s Future at DPS Bharuch. Admissions for 2026-27 are now open.',
 };
 
 export default function RootLayout({
