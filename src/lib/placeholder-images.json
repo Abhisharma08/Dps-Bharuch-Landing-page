@@ -24,16 +24,11 @@
       "imageUrl": "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1760612807/logo-new_gmyxsk.png",
       "imageHint": "school logo"
     },
-    {
-      "id": "gallery-1",
-      "description": "Students in a classroom",
-      "imageUrl": "https://picsum.photos/seed/gallery1/600/400",
-      "imageHint": "students classroom"
-    },
+    
     {
       "id": "gallery-2",
       "description": "School library",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761676753/Library_3_oicmfu.jpg",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761805941/Library_1_wt7zra.jpg",
       "imageHint": "school library"
     },
     {
@@ -48,12 +43,7 @@
       "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761675998/Science_Lab_mhy8rz.jpg",
       "imageHint": "science lab"
     },
-    {
-      "id": "gallery-5",
-      "description": "Art class",
-      "imageUrl": "https://picsum.photos/seed/gallery5/600/400",
-      "imageHint": "art class"
-    },
+   
     {
       "id": "gallery-6",
       "description": "School building",
@@ -78,12 +68,7 @@
       "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761677147/Assembly_2_xv5sx0.jpg",
       "imageHint": "school assembly"
     },
-    {
-      "id": "gallery-10",
-      "description": "Playground",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761677158/PlayArea_etbtun.jpg",
-      "imageHint": "playground"
-    },
+    
     {
       "id": "gallery-11",
       "description": "Cafeteria",
