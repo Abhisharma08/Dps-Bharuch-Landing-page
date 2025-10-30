@@ -25,7 +25,7 @@ export default function FinalCtaSection() {
           className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6 rounded-full"
           onClick={scrollToTop}
         >
-          Go to Inquiry Form
+          Enquire Now
         </Button>
       </div>
     </section>

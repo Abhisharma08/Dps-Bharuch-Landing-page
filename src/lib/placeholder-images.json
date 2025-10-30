@@ -19,12 +19,6 @@
       "imageHint": "logo"
     },
     {
-      "id": "best-school-award-logo",
-      "description": "Best School Award 2024 Logo",
-      "imageUrl": "https://picsum.photos/seed/award/150/50",
-      "imageHint": "award logo"
-    },
-    {
       "id": "dps-anand-logo",
       "description": "DPS Anand School Logo",
       "imageUrl": "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1760612807/logo-new_gmyxsk.png",
