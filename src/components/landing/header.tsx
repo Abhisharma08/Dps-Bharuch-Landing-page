@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/100 backdrop-blur supports-[backdrop-filter]:bg-background/100">
+    <header className="sticky top-0 z-50 w-full border-b bg-[#362B1F]/100 backdrop-blur supports-[backdrop-filter]:bg-[#362B1F]/100">
       <div className="container flex h-20 items-center">
         <Link href="/" className="flex items-center gap-3 font-bold text-xl">
           <div className="bg-white p-1 rounded-md">
