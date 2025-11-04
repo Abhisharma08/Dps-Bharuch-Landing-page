@@ -1,4 +1,5 @@
-import AdmissionProcessSection from './admission-process-section';
+
+import AdmissionProcessSection from './admission-process-section'
 import FaqSection from './faq-section';
 import FinalCtaSection from './final-cta-section';
 import FloatingInquiryButton from './floating-inquiry-button';

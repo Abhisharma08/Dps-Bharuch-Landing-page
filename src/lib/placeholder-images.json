@@ -28,53 +28,47 @@
     {
       "id": "gallery-2",
       "description": "School library",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761805941/Library_1_wt7zra.jpg",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1762280461/Library_2_obd1yz.jpg",
       "imageHint": "school library"
     },
     {
       "id": "gallery-3",
-      "description": "Students playing sports",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761676600/Basketball_1_hgpkus.jpg",
-      "imageHint": "students sports"
+      "description": "STEM & Robotics Labs",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1762285464/Abacus_uiywan.jpg",
+      "imageHint": "STEM & Robotics Labs"
     },
+    
+  
+    
     {
       "id": "gallery-4",
-      "description": "Science lab",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761675998/Science_Lab_mhy8rz.jpg",
-      "imageHint": "science lab"
+      "description": "Sports & Outdoor Play",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1762280961/Basketball-2_i2hz54.jpg",
+      "imageHint": "Sports & Outdoor Play"
     },
    
     {
       "id": "gallery-6",
-      "description": "School building",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761675780/School_building_2_rlpxet.jpg",
-      "imageHint": "school building"
+      "description": "Creative Arts",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1762281254/Exhibition_4_nsfvku.jpg",
+      "imageHint": "Creative Arts"
     },
     {
       "id": "gallery-7",
-      "description": "Computer lab",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761677236/Computer_Lab_1_bk9dkp.jpg",
-      "imageHint": "computer lab"
+      "description": "Modern Classrooms",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1762281474/IT_LAB_dvlqse.jpg",
+      "imageHint": "Modern Classrooms"
     },
     {
       "id": "gallery-8",
-      "description": "Music room",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761675922/Music_room_jeqvel.jpg",
-      "imageHint": "music room"
+      "description": "Cambridge Learning Resources",
+      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1762285312/Maths_Lab_knzicg.jpg",
+      "imageHint": "Cambridge Learning Resources"
     },
-    {
-      "id": "gallery-9",
-      "description": "School assembly",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761677147/Assembly_2_xv5sx0.jpg",
-      "imageHint": "school assembly"
-    },
+   
+   
     
-    {
-      "id": "gallery-11",
-      "description": "Cafeteria",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761676722/Cafeteria_yncuno.jpg",
-      "imageHint": "school cafeteria"
-    },
+   
     {
       "id": "gallery-12",
       "description": "Annual function",

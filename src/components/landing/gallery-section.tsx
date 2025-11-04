@@ -27,10 +27,13 @@ export default function GallerySection() {
     <section className="py-16 md:py-24 bg-muted">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold font-headline">Life at DPS Bharuch</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-headline">Life at Wise Oaks International School</h2>
+          {/*
           <p className="text-muted-foreground max-w-2xl mx-auto mt-4">
-           Step inside our vibrant campus — where curiosity, creativity, and collaboration come alive.
+          Step into our vibrant, multicultural campuses — where curiosity blooms and learning comes alive.
+
           </p>
+          */}
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {imagesToShow.map((image, index) => (
@@ -49,20 +52,23 @@ export default function GallerySection() {
             </div>
           ))}
         </div>
+         {/* 
         {visibleImages < galleryImages.length && (
-          <div className="text-center mt-12">
-            <Button onClick={handleLoadMore} size="lg" disabled={loading}>
-              {loading ? (
-                <>
-                  <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                  Loading...
-                </>
-              ) : (
-                'Load More'
-              )}
-            </Button>
-          </div>
+         <div className="text-center mt-12">
+  <Button onClick={handleLoadMore} size="lg" disabled={loading}>
+    {loading ? (
+      <>
+        <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+        Loading...
+      </>
+    ) : (
+      'Load More'
+    )}
+  </Button>
+</div>
+  
         )}
+  */}
       </div>
     </section>
   );

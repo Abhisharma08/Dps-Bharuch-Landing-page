@@ -23,43 +23,43 @@
   ],
   "faqs": [
     {
+      "question": "What curriculum does Wise Oaks follow?",
+      "answer": "  We follow the Cambridge International Curriculum, complemented by Singapore Maths, strong literacy foundations, and inquiry-based learning across all levels."
+    },
+    {
       "question": "What is the student–teacher ratio?",
-      "answer": " We maintain a balanced 25:1 ratio to ensure every child receives focused attention and quality instruction."
+      "answer": " Wise Oaks maintains a 20:1 student–teacher ratio, ensuring personalised attention while encouraging collaborative learning."
     },
     {
-      "question": "Which curriculum is followed?",
-      "answer": " We follow the Central Board of Secondary Education (CBSE), New Delhi, integrating engaging and inquiry-driven teaching methods."
+      "question": "How does the school support new students during transition?",
+      "answer": " We provide a structured Bridge Program and personalised academic support to help students smoothly transition into the Cambridge system, regardless of their previous curriculum."
     },
     {
-      "question": "Is transportation available?",
-      "answer": " Yes, we provide safe, GPS-enabled bus transport across Bharuch with trained attendants to ensure a secure commute."
-    },
-    {
-      "question": "What are the school timings?",
-      "answer": " The school operates from 8:00 AM to 2:30 PM, Monday to Friday. Optional after-school sessions are available up to 4:00 PM."
+      "question": "What technology programs are offered at Wise Oaks?",
+      "answer": "  Through WiseTech CodeSpark, students engage in coding, robotics, app development, digital literacy, AI/ML basics, and hands-on STEM activities from an early age."
     }
   ],
   "testimonials": [
     {
-      "quote": "DPS Bharuch has provided our daughter with a perfect balance of academics and extracurricular activities. The teachers are attentive and caring, and the school environment encourages growth and confidence.",
-      "author": " Meera Patel, Parent of a Grade 4 Student"
+      "quote": "Wise Oaks provides the perfect balance of academics and holistic growth. Our child enjoys going to school every day, and the teachers truly understand each learner’s individual needs.",
+      "author": " Parent of Grade 3 Student"
     }
   ],
   "whyChooseUsFeatures": [
     {
       "icon": "BrainCircuit",
       "title": "Academic Excellence",
-      "description": " Our CBSE-based program builds critical thinking, creativity, and a love for lifelong learning — equipping students with the skills to thrive in a dynamic world."
+      "description": " Our Cambridge pathway nurtures conceptual understanding, critical thinking, and global-mindedness — empowering students to excel in an ever-evolving world."
     },
     {
       "icon": "HeartHandshake",
       "title": "Holistic Development",
-      "description": " We encourage complete growth through a blend of academics, sports, performing arts, and leadership opportunities."
+      "description": " From sports and performing arts to technology, communication, and leadership, we ensure every learner grows with confidence, creativity, and character."
     },
     {
       "icon": "Users",
       "title": "Dedicated Faculty",
-      "description": " Our passionate educators guide every learner with personal attention and care, creating a supportive space where potential turns into achievement."
+      "description": " Our experienced educators offer personalised attention in small class sizes, creating a warm, supportive environment where every child thrives."
     }
   ]
 }

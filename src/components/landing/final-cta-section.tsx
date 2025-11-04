@@ -15,10 +15,10 @@ export default function FinalCtaSection() {
     <section className="py-16 md:py-24 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold font-headline mb-4">
-          Take the First Step Toward Your Child’s Bright Future
+          Take the First Step Toward a Brighter Tomorrow
         </h2>
         <p className="max-w-2xl mx-auto text-lg text-slate-200 mb-8">
-          Complete the form at the top of this page to begin your admission journey with DPS Bharuch.
+          Complete the form at the top of this page to start your child’s admission journey with Wise Oaks International School.
         </p>
         <Button
           size="lg"
