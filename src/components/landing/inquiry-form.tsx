@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState } from 'react';
@@ -58,26 +57,25 @@ export function InquiryForm() {
         });
 
         if (process.env.NODE_ENV === 'development' && !result.success) {
-            toast({
-                title: "HubSpot Sync Failed",
-                description: result.message,
-                variant: "destructive"
-            });
+          toast({
+            title: "HubSpot Sync Failed",
+            description: result.message,
+            variant: "destructive",
+          });
         }
 
-        // Fire GTM event for step 1 completion (conversion)
         gtmEvent({
           eventName: 'form_step1_complete',
           email: values.email,
         });
-        
+
         setStep(2);
-      } catch(e: any) {
+      } catch (e: any) {
         console.error(e);
         toast({
-            title: "An error occurred",
-            description: e.message || "Could not save your details. Please try again.",
-            variant: "destructive"
+          title: "An error occurred",
+          description: e.message || "Could not save your details. Please try again.",
+          variant: "destructive",
         });
       } finally {
         setLoading(false);
@@ -88,7 +86,6 @@ export function InquiryForm() {
   async function onSubmit(values: FormValues) {
     setLoading(true);
     try {
-      // Save final details to HubSpot
       const result = await submitStep2({
         email: values.email,
         childs_name: values.childName,
@@ -97,21 +94,19 @@ export function InquiryForm() {
 
       if (process.env.NODE_ENV === 'development' && !result.success) {
         toast({
-            title: "HubSpot Sync Failed",
-            description: result.message,
-            variant: "destructive"
+          title: "HubSpot Sync Failed",
+          description: result.message,
+          variant: "destructive",
         });
       }
-      
-      // Redirect to thank you page
-      router.push('/thank-you');
 
+      router.push('/thank-you');
     } catch (e: any) {
       console.error(e);
       toast({
         title: "An error occurred",
         description: e.message || "Failed to save details. Please try again later.",
-        variant: "destructive"
+        variant: "destructive",
       });
     } finally {
       setLoading(false);
@@ -124,7 +119,7 @@ export function InquiryForm() {
         <CardHeader>
           <CardTitle className="text-2xl font-bold text-center">Enquire Now</CardTitle>
           <CardDescription className="text-center text-foreground/80">
-           Share your details below, and our admissions counselor will connect with you shortly.
+            Share your details below, and our admissions counselor will connect with you shortly.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -176,7 +171,7 @@ export function InquiryForm() {
 
               {step === 2 && (
                 <>
-                   <FormField
+                  <FormField
                     control={form.control}
                     name="childName"
                     render={({ field }) => (
@@ -201,9 +196,12 @@ export function InquiryForm() {
                               <SelectValue placeholder="Select a grade" />
                             </SelectTrigger>
                           </FormControl>
-                          <SelectContent>
+                          {/* FIXED: White dropdown background */}
+                          <SelectContent className="bg-white text-black border border-gray-200 shadow-lg">
                             {['Nursery', 'LKG', 'UKG', ...Array.from({ length: 12 }, (_, i) => `Grade ${i + 1}`)].map((grade) => (
-                              <SelectItem key={grade} value={grade}>{grade}</SelectItem>
+                              <SelectItem key={grade} value={grade}>
+                                {grade}
+                              </SelectItem>
                             ))}
                           </SelectContent>
                         </Select>
@@ -216,18 +214,34 @@ export function InquiryForm() {
 
               <div className="flex gap-4 pt-4">
                 {step === 2 && (
-                    <Button type="button" variant="outline" onClick={() => setStep(1)} className="w-full" disabled={loading}>
-                        Previous
-                    </Button>
+                  <Button
+                    type="button"
+                    variant="outline"
+                    onClick={() => setStep(1)}
+                    className="w-full"
+                    disabled={loading}
+                  >
+                    Previous
+                  </Button>
                 )}
                 {step === 1 ? (
-                    <Button type="button" onClick={handleNext} className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold" disabled={loading}>
-                        {loading ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : "Next"}
-                    </Button>
+                  <Button
+                    type="button"
+                    onClick={handleNext}
+                    className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold"
+                    disabled={loading}
+                  >
+                    {loading ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : "Next"}
+                  </Button>
                 ) : (
-                    <Button type="submit" size="lg" className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold" disabled={loading}>
-                        {loading ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : "Request a Callback"}
-                    </Button>
+                  <Button
+                    type="submit"
+                    size="lg"
+                    className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold"
+                    disabled={loading}
+                  >
+                    {loading ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : "Request a Callback"}
+                  </Button>
                 )}
               </div>
             </form>
