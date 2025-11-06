@@ -1,21 +1,24 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function Header() {
+  const logo = PlaceHolderImages.find(p => p.id === 'dps-bharuch-logo');
+
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-[#ffffff]/100 backdrop-blur supports-[backdrop-filter]:bg-[#ffffff]/100">
+    <header className="sticky top-0 z-50 w-full border-b bg-background backdrop-blur-none supports-[backdrop-filter]:bg-background">
       <div className="container flex h-20 items-center">
         <Link href="/" className="flex items-center gap-3 font-bold text-xl">
-          <div className="bg-white p-1 rounded-md">
+          {logo && (
             <Image
-              src="https://res.cloudinary.com/dtc8bbbco/image/upload/v1761806169/DPS-Baruch-logo_y9ux94.png"
-              alt="DPS Bharuch Logo"
+              src={logo.imageUrl}
+              alt={logo.description}
               width={200}
               height={100}
-              className="object-contain"
-              priority
+              className="object-contain rounded-md p-1 bg-transparent"
+              data-ai-hint={logo.imageHint}
             />
-          </div>
+          )}
         </Link>
       </div>
     </header>
