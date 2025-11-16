@@ -2,14 +2,13 @@
 
 import { Button } from '@/components/ui/button';
 
-export default function FinalCtaSection() {
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
+export default function FloatingInquiryButton() {
+  const scrollToForm = () => {
+    const el = document.getElementById("form-scrl");
+    if (!el) return;
+    el.scrollIntoView({ behavior: "smooth" });
   };
+
 
   return (
     <section className="py-16 md:py-24 bg-primary text-primary-foreground">
@@ -23,7 +22,7 @@ export default function FinalCtaSection() {
         <Button
           size="lg"
           className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6 rounded-full"
-          onClick={scrollToTop}
+          onClick={scrollToForm}
         >
           Enquire Now
         </Button>

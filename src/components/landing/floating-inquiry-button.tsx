@@ -3,11 +3,10 @@
 import { Button } from "@/components/ui/button";
 
 export default function FloatingInquiryButton() {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+  const scrollToForm = () => {
+    const el = document.getElementById("form-scrl");
+    if (!el) return;
+    el.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -15,7 +14,7 @@ export default function FloatingInquiryButton() {
       <Button
         size="lg"
         className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg py-6 rounded-full"
-        onClick={scrollToTop}
+        onClick={scrollToForm}
       >
         Enquire Now
       </Button>
