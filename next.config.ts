@@ -2,6 +2,9 @@ import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
   /* config options here */
+  experimental: {
+    optimizePackageImports: ['lucide-react'],
+  },
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -31,6 +34,12 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'res.cloudinary.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'resources.edunexttechnologies.com',
         port: '',
         pathname: '/**',
       },

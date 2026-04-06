@@ -1,7 +1,13 @@
 import type {Metadata} from 'next';
+import { Poppins } from 'next/font/google';
 import './globals.css';
-import { Toaster } from "@/components/ui/toaster"
 import GtmScript from './GtmScript';
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400', '600', '700', '800'],
+});
 
 export const metadata: Metadata = {
   title: 'DPS Bharuch Admissions',
@@ -15,15 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
-      </head>
-      <body className="font-body antialiased">
+      <body className={`${poppins.className} font-body antialiased`}>
         <GtmScript />
         {children}
-        <Toaster />
       </body>
     </html>
   );

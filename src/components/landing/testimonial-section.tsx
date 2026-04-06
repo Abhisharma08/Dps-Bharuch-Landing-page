@@ -8,7 +8,7 @@ export default function TestimonialSection() {
 
   return (
     <section className="py-16 md:py-24 bg-primary text-primary-foreground">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-headline">What Parents Say</h2>
         </div>

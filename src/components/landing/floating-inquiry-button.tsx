@@ -1,22 +1,15 @@
-"use client";
-
-import { Button } from "@/components/ui/button";
+import Link from 'next/link';
+import { Button } from '@/components/ui/button';
 
 export default function FloatingInquiryButton() {
-  const scrollToForm = () => {
-    const el = document.getElementById("form-scrl");
-    if (!el) return;
-    el.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
-    <div className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-background/90 backdrop-blur-sm border-t z-40">
+    <div className="fixed bottom-0 left-0 right-0 z-40 border-t bg-background/90 p-4 backdrop-blur-sm md:hidden">
       <Button
+        asChild
         size="lg"
-        className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg py-6 rounded-full"
-        onClick={scrollToForm}
+        className="w-full rounded-full bg-accent py-6 text-lg font-bold text-accent-foreground hover:bg-accent/90"
       >
-        Enquire Now
+        <Link href="#form-scrl">Enquire Now</Link>
       </Button>
     </div>
   );

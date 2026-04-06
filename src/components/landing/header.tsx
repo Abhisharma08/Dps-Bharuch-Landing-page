@@ -1,24 +1,19 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function Header() {
-  const logo = PlaceHolderImages.find(p => p.id === 'dps-bharuch-logo');
-
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background backdrop-blur-none supports-[backdrop-filter]:bg-background">
-      <div className="container flex justify-center items-center h-32">
+      <div className="container flex h-24 items-center justify-center md:h-32">
         <Link href="/" className="flex items-center gap-3 font-bold text-xl">
-          {logo && (
-            <Image
-              src={logo.imageUrl}
-              alt={logo.description}
-              width={400}          
-              height={180}         
-              className="object-contain rounded-md p-2 bg-transparent"
-              data-ai-hint={logo.imageHint}
-            />
-          )}
+          <Image
+            src="https://resources.edunexttechnologies.com/web-data/dpsbharuch/img/header-logo-bhruch.png"
+            alt="DPS Bharuch School Logo"
+            width={320}
+            height={144}
+            sizes="(max-width: 768px) 220px, 320px"
+            className="object-contain rounded-md bg-transparent"
+          />
         </Link>
       </div>
     </header>

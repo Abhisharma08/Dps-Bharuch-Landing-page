@@ -21,7 +21,7 @@
     {
       "id": "dps-bharuch-logo",
       "description": "DPS Bharuch School Logo",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1762454365/logo-01_2_cnbgoo.png",
+      "imageUrl": "https://resources.edunexttechnologies.com/web-data/dpsbharuch/img/header-logo-bhruch.png",
       "imageHint": "school logo"
     },
     
@@ -34,52 +34,33 @@
     {
       "id": "gallery-3",
       "description": "Students playing sports",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761676600/Basketball_1_hgpkus.jpg",
+      "imageUrl": "https://res.cloudinary.com/ddqqlfsjp/image/upload/q_auto/f_auto/v1775462173/Picture115_kovzl4.jpg",
       "imageHint": "students sports"
     },
     {
       "id": "gallery-4",
       "description": "Science lab",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761675998/Science_Lab_mhy8rz.jpg",
+      "imageUrl": "https://res.cloudinary.com/ddqqlfsjp/image/upload/q_auto/f_auto/v1775462388/Picture45_tt5gcv.jpg",
       "imageHint": "science lab"
     },
    
     {
       "id": "gallery-6",
       "description": "School building",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761675780/School_building_2_rlpxet.jpg",
+      "imageUrl": "https://res.cloudinary.com/ddqqlfsjp/image/upload/q_auto/f_auto/v1775462758/DPS_Bharuch_y04dpq.jpg",
       "imageHint": "school building"
     },
     {
       "id": "gallery-7",
       "description": "Computer lab",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761677236/Computer_Lab_1_bk9dkp.jpg",
+      "imageUrl": "https://res.cloudinary.com/ddqqlfsjp/image/upload/q_auto/f_auto/v1775462449/Picture44_nzmnai.jpg",
       "imageHint": "computer lab"
     },
     {
       "id": "gallery-8",
       "description": "Music room",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761675922/Music_room_jeqvel.jpg",
+      "imageUrl": "https://res.cloudinary.com/ddqqlfsjp/image/upload/q_auto/f_auto/v1775462613/Picture92_phsh3i.jpg",
       "imageHint": "music room"
-    },
-    {
-      "id": "gallery-9",
-      "description": "School assembly",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761677147/Assembly_2_xv5sx0.jpg",
-      "imageHint": "school assembly"
-    },
-    
-    {
-      "id": "gallery-11",
-      "description": "Cafeteria",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761676722/Cafeteria_yncuno.jpg",
-      "imageHint": "school cafeteria"
-    },
-    {
-      "id": "gallery-12",
-      "description": "Annual function",
-      "imageUrl": "https://res.cloudinary.com/dtc8bbbco/image/upload/v1761677846/Annual_Function_3_a83nxa.jpg",
-      "imageHint": "annual function"
     }
   ]
 }

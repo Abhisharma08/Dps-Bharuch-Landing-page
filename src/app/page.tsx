@@ -1,3 +1,4 @@
+import dynamic from 'next/dynamic';
 import {
   Header,
   HeroSection,
@@ -6,11 +7,12 @@ import {
   AdmissionProcessSection,
   LifeAtDPSBharuch,
   TestimonialSection,
-  FaqSection,
   FinalCtaSection,
   Footer,
   FloatingInquiryButton,
 } from '@/components/landing';
+
+const FaqSection = dynamic(() => import('@/components/landing/faq-section'));
 
 export default function Home() {
   return (
