@@ -23,6 +23,24 @@ function GtmScriptContent() {
 
   return (
     <>
+      <Script
+        id="google-ads-conversion"
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=AW-16677728495"
+        strategy="beforeInteractive"
+      />
+      <Script
+        id="google-ads-config"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-16677728495');
+  `,
+        }}
+      />
       <noscript>
         <iframe
           src={`https://www.googletagmanager.com/ns.html?id=${gtmId}`}
