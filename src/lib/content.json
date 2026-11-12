@@ -1,0 +1,65 @@
+{
+  "admissionSteps": [
+    {
+      "number": "1",
+      "title": "Submit Enquiry",
+      "description": " Fill out the form to register your interest and receive detailed admission information."
+    },
+    {
+      "number": "2",
+      "title": "Orientation Sessionn",
+      "description": " Attend an interaction with our academic team to learn more about our approach and environment."
+    },
+    {
+      "number": "3",
+      "title": "Document Completion",
+      "description": " Submit the required paperwork for verification and processing."
+    },
+    {
+      "number": "4",
+      "title": "Admission Confirmation",
+      "description": " Receive your admission offer and officially join the DPS Bharuch family."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the student–teacher ratio?",
+      "answer": " We maintain a balanced 25:1 ratio to ensure every child receives focused attention and quality instruction."
+    },
+    {
+      "question": "Which curriculum is followed?",
+      "answer": " We follow the Central Board of Secondary Education (CBSE), New Delhi, integrating engaging and inquiry-driven teaching methods."
+    },
+    {
+      "question": "Is transportation available?",
+      "answer": " Yes, we provide safe, GPS-enabled bus transport across Bharuch with trained attendants to ensure a secure commute."
+    },
+    {
+      "question": "What are the school timings?",
+      "answer": " The school operates from 8:00 AM to 2:30 PM, Monday to Friday. Optional after-school sessions are available up to 4:00 PM."
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "DPS Bharuch has provided our daughter with a perfect balance of academics and extracurricular activities. The teachers are attentive and caring, and the school environment encourages growth and confidence.",
+      "author": " Meera Patel, Parent of a Grade 4 Student"
+    }
+  ],
+  "whyChooseUsFeatures": [
+    {
+      "icon": "BrainCircuit",
+      "title": "Academic Excellence",
+      "description": " Our CBSE-based program builds critical thinking, creativity, and a love for lifelong learning — equipping students with the skills to thrive in a dynamic world."
+    },
+    {
+      "icon": "HeartHandshake",
+      "title": "Holistic Development",
+      "description": " We encourage complete growth through a blend of academics, sports, performing arts, and leadership opportunities."
+    },
+    {
+      "icon": "Users",
+      "title": "Dedicated Faculty",
+      "description": " Our passionate educators guide every learner with personal attention and care, creating a supportive space where potential turns into achievement."
+    }
+  ]
+}
